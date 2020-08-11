@@ -14,6 +14,7 @@
 		24DE3EFA24E2717000CBA3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DE3EF924E2717000CBA3E2 /* Assets.xcassets */; };
 		24DE3EFD24E2717000CBA3E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DE3EFC24E2717000CBA3E2 /* Preview Assets.xcassets */; };
 		24DE3F0024E2717000CBA3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DE3EFE24E2717000CBA3E2 /* LaunchScreen.storyboard */; };
+		24DE3F0824E2838800CBA3E2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE3F0724E2838800CBA3E2 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		24DE3EFC24E2717000CBA3E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24DE3EFF24E2717000CBA3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24DE3F0124E2717000CBA3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DE3F0724E2838800CBA3E2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				24DE3EF024E2716F00CBA3E2 /* AppDelegate.swift */,
 				24DE3EF224E2716F00CBA3E2 /* SceneDelegate.swift */,
 				24DE3EF724E2716F00CBA3E2 /* ContentView.swift */,
+				24DE3F0724E2838800CBA3E2 /* InfoView.swift */,
 				24DE3EF924E2717000CBA3E2 /* Assets.xcassets */,
 				24DE3EFE24E2717000CBA3E2 /* LaunchScreen.storyboard */,
 				24DE3F0124E2717000CBA3E2 /* Info.plist */,
@@ -152,6 +155,7 @@
 				24DE3EF124E2716F00CBA3E2 /* AppDelegate.swift in Sources */,
 				24DE3EF624E2716F00CBA3E2 /* MyCard.xcdatamodeld in Sources */,
 				24DE3EF824E2716F00CBA3E2 /* ContentView.swift in Sources */,
+				24DE3F0824E2838800CBA3E2 /* InfoView.swift in Sources */,
 				24DE3EF324E2716F00CBA3E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
