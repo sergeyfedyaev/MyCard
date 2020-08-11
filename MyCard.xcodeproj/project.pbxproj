@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2422896C24E2984F008FB14F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2422896B24E2984F008FB14F /* README.md */; };
 		24DE3EF124E2716F00CBA3E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE3EF024E2716F00CBA3E2 /* AppDelegate.swift */; };
 		24DE3EF324E2716F00CBA3E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE3EF224E2716F00CBA3E2 /* SceneDelegate.swift */; };
 		24DE3EF624E2716F00CBA3E2 /* MyCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24DE3EF424E2716F00CBA3E2 /* MyCard.xcdatamodeld */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2422896B24E2984F008FB14F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		24DE3EED24E2716F00CBA3E2 /* MyCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DE3EF024E2716F00CBA3E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24DE3EF224E2716F00CBA3E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2422896D24E29862008FB14F /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
 		24DE3EE424E2716F00CBA3E2 = {
 			isa = PBXGroup;
 			children = (
@@ -63,10 +72,12 @@
 				24DE3EF024E2716F00CBA3E2 /* AppDelegate.swift */,
 				24DE3EF224E2716F00CBA3E2 /* SceneDelegate.swift */,
 				24DE3EF724E2716F00CBA3E2 /* ContentView.swift */,
+				2422896B24E2984F008FB14F /* README.md */,
 				24DE3F0724E2838800CBA3E2 /* InfoView.swift */,
 				24DE3EF924E2717000CBA3E2 /* Assets.xcassets */,
 				24DE3EFE24E2717000CBA3E2 /* LaunchScreen.storyboard */,
 				24DE3F0124E2717000CBA3E2 /* Info.plist */,
+				2422896D24E29862008FB14F /* Documentation */,
 				24DE3EF424E2716F00CBA3E2 /* MyCard.xcdatamodeld */,
 				24DE3EFB24E2717000CBA3E2 /* Preview Content */,
 			);
@@ -141,6 +152,7 @@
 			files = (
 				24DE3F0024E2717000CBA3E2 /* LaunchScreen.storyboard in Resources */,
 				24DE3EFD24E2717000CBA3E2 /* Preview Assets.xcassets in Resources */,
+				2422896C24E2984F008FB14F /* README.md in Resources */,
 				24DE3EFA24E2717000CBA3E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
